@@ -29,3 +29,11 @@ This repository serves as a public log of my consistency, learning progress, and
 
 Each day’s work is organized into separate folders:
 
+
+---
+
+**Author:** Priyank Sinha  
+**Repository:** 100 Days of DSA Challenge  
+**Focus:** Daily Data Structures & Algorithms Practice
+
+
