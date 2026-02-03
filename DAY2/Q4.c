@@ -11,23 +11,35 @@ Input: prices = [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0.
  */
-#include<stdlib.h>
-int maxProfit(int* prices, int pricesSize) {
-    if(pricesSize==0){
-        return 0;
-    }
+#include<stdio.h>
+
+int maxProfit(int prices[],int n){
+    if(n==0) return 0;
     int minprice=prices[0];
-    int maxProfit=0;
-    for(int i=1;i<pricesSize;i++){
+    int maxprofit=0;
+    for(int i=1;i<n;i++){
         if(prices[i]<minprice){
             minprice=prices[i];
-        }
-        else{
+        }else{
             int profit=prices[i]-minprice;
-            if(profit>maxProfit){
-                maxProfit=profit;
+            if(profit>maxprofit){
+                maxprofit=profit;
             }
         }
     }
-    return maxProfit;
+    return maxprofit;
+}
+
+int main(){
+    int n;
+    printf("Enter number of days:");
+    scanf("%d",&n);
+    int prices[n];
+    printf("Enter prices:");
+    for(int i=0;i<n;i++){
+        scanf("%d",&prices[i]);
+    }
+    int ans=maxProfit(prices,n);
+    printf("Maximum profit: %d",ans);
+    return 0;
 }
