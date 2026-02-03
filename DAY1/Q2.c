@@ -15,19 +15,41 @@ Output: [0,1]
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-#include<stdlib.h>
-int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
-    int* ans = (int*)malloc(2 * sizeof(int));
-    for(int i = 0; i < numsSize; i++) {
-        for(int j = i + 1; j < numsSize; j++) {
-            if(nums[i] + nums[j] == target) {
-                ans[0] = i;
-                ans[1] = j;
-                *returnSize = 2;
+#include<stdio.h>
+
+int* twoSum(int nums[],int n,int target,int *returnSize){
+    static int ans[2];
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(nums[i]+nums[j]==target){
+                ans[0]=i;
+                ans[1]=j;
+                *returnSize=2;
                 return ans;
             }
         }
     }
-     *returnSize = 0;  
-    return NULL;
+    *returnSize=0;
+    return ans;
 }
+
+int main(){
+    int n,target,returnSize;
+    printf("Enter size of array:");
+    scanf("%d",&n);
+    int nums[n];
+    printf("Enter elements of array:");
+    for(int i=0;i<n;i++){
+        scanf("%d",&nums[i]);
+    }
+    printf("Enter target:");
+    scanf("%d",&target);
+    int *res=twoSum(nums,n,target,&returnSize);
+    if(returnSize==2){
+        printf("Indices: %d %d",res[0],res[1]);
+    }else{
+        printf("No valid pair found");
+    }
+    return 0;
+}
+
