@@ -17,10 +17,10 @@ This repository serves as a public log of my consistency, learning progress, and
 
 ---
 
-## 🛠 Languages Used
+## 🛠 Language Used
 
 - C
-- C++
+
 
 
 ---
