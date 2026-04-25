@@ -1,0 +1,58 @@
+/*
+Problem Statement:
+Implement Insertion Sort to sort an array in ascending order.
+
+Input:
+- First line: integer n (size of array)
+- Second line: n space-separated integers
+
+Output:
+- Print the sorted array
+
+Example:
+Input:
+5
+64 34 25 12 22
+
+Output:
+12 22 25 34 64
+*/
+
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    int arr[n];
+
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        printf("Element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
+    // Insertion Sort
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+
+        // Shift elements greater than key
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+
+        arr[j + 1] = key;
+    }
+
+    printf("Sorted array:\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
