@@ -2,6 +2,7 @@
 ![Focus](https://img.shields.io/badge/Focus-DSA-orange)
 ![Challenge](https://img.shields.io/badge/Challenge-100%20Days-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 # 📘 100 Days of DSA Challenge
 
