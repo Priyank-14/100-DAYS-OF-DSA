@@ -1,7 +1,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Focus](https://img.shields.io/badge/Focus-DSA-orange)
 ![Challenge](https://img.shields.io/badge/Challenge-100%20Days-green)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 # 📘 100 Days of DSA Challenge
 
