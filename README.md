@@ -1,39 +1,108 @@
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Focus](https://img.shields.io/badge/Focus-DSA-orange)
+![Challenge](https://img.shields.io/badge/Challenge-100%20Days-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
 # 📘 100 Days of DSA Challenge
 
-Welcome to my **100 Days of Data Structures & Algorithms (DSA)** challenge repository.  
-In this challenge, I solve and upload DSA problems daily as part of my college coursework and personal practice.
+A structured journey of solving Data Structures & Algorithms problems consistently for 100 days.
 
-This repository serves as a public log of my consistency, learning progress, and problem-solving journey.
+---
+
+## 📌 Overview
+
+This repository documents my **100 Days of DSA Challenge**, where I solve problems daily to strengthen my understanding of algorithms, data structures, and problem-solving techniques.
+
+It serves as a **public log of consistency, learning, and growth**.
 
 ---
 
 ## 🎯 Objective
 
-- Solve DSA problems daily for 100 days
-- Build strong fundamentals in Data Structures & Algorithms
-- Improve coding logic and problem-solving skills
-- Maintain consistent coding habits
-- Prepare for technical interviews and competitive programming
+* Solve DSA problems daily for 100 days
+* Build strong foundations in core concepts
+* Improve logical thinking and coding skills
+* Develop consistency in problem-solving
+* Prepare for technical interviews
 
 ---
 
-## 🛠 Language Used
+## 🧠 Topics Covered
 
-- C
-
-
+* Arrays
+* Strings
+* Linked Lists
+* Stacks & Queues
+* Trees
+* Graphs
+* Recursion
+* Searching & Sorting
 
 ---
 
 ## 📂 Repository Structure
 
-Each day’s work is organized into separate folders:
+Each folder represents a day:
 
+```plaintext
+DAY1/
+DAY2/
+DAY3/
+...
+DAY100/
+```
+
+Each folder contains:
+
+* Problem statements
+* Solution code (C)
 
 ---
 
-**Author:** Priyank Sinha  
-**Repository:** 100 Days of DSA Challenge  
-**Focus:** Daily Data Structures & Algorithms Practice
+## 📊 Progress
 
+* 🔥 Total Problems Solved: 100+
+* 📅 Challenge Duration: 100 Days
 
+---
+
+## 🛠 Language Used
+
+* C
+
+---
+
+## 🔍 Key Insight
+
+Consistency in solving problems daily is more impactful than solving many problems irregularly.
+This challenge helped build discipline and strengthen core problem-solving skills.
+
+---
+
+## 📌 Key Learnings
+
+* Improved algorithmic thinking
+* Better understanding of time & space complexity
+* Stronger coding consistency
+* Exposure to diverse problem types
+
+---
+
+## 🚀 Future Plan
+
+* Solve advanced DSA problems
+* Start competitive programming
+* Practice interview-level questions
+
+---
+
+## 👨‍💻 Author
+
+**Priyank Sinha**
+B.Tech CSE | DSA & AI/ML Enthusiast
+
+---
+
+## ⭐ Note
+
+This repository represents consistency and continuous improvement over time.
